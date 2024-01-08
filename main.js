@@ -38,9 +38,8 @@ let candles = [4, 4,1,3,4,4,5,7,7,7,5,6,7,'7'];
 birthdayCakeCandles(candles);
 
 
-
+// simple sum
 function solveMeFirst(a, b) {
-  // Hint: Type return a+b below 
   let sum = 0;
   sum=a+b; 
   console.log(sum);
@@ -48,6 +47,8 @@ function solveMeFirst(a, b) {
   
 }
 solveMeFirst(2, 3);
+
+// simple Array Sum
 
 function simpleArraySum(ar) {
  let sum = 0;
@@ -75,8 +76,6 @@ function compareTriplets(a, b) {
 
     return [alice, bob];
 }
-
-
 const a = [1, 2, 3];
 const b = [3, 2, 1];
 
