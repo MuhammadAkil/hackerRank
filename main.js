@@ -49,3 +49,35 @@ function solveMeFirst(a, b) {
 }
 solveMeFirst(2, 3);
 
+function simpleArraySum(ar) {
+ let sum = 0;
+ let arLength=ar.length;
+ for(let i =0;i<arLength;i++){
+     sum+=ar[i];
+ }
+ return sum;
+}
+let arrSum = [4, 4, 1, 3, 4, 4, 5, 7, 7, 7, 5, 6, 7]
+simpleArraySum(arrSum);
+
+// compareTriplets
+function compareTriplets(a, b) {
+    let alice = 0;
+    let bob = 0;
+
+    for (let i = 0; i < 3; i++) {
+        if (a[i] > b[i]) {
+            alice++;
+        } else if (a[i] < b[i]) {
+            bob++;
+        }
+    }
+
+    return [alice, bob];
+}
+
+
+const a = [1, 2, 3];
+const b = [3, 2, 1];
+
+compareTriplets(a, b);
